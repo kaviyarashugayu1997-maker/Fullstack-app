@@ -5,7 +5,6 @@ pipeline {
         AWS_REGION = "eu-east-1"
         S3_BUCKET = "frontendapp101"
         CLOUDFRONT_DISTRIBUTION_ID = "E175I2YBDDSB62"
-        NODE_OPTIONS = "--openssl-legacy-provider"
     }
  
     options {
